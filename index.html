@@ -117,15 +117,15 @@
     <div class="navbar navbar-fixed-bottom">
         <div class="row">
             <div class="col-md-6 text-center col-md-offset-3">
-                <button class="btn btn-primary" id="turn_on">Turn On Lights</button>
-                <button class="btn btn-primary" id="play">Play Music</button>
-                <button class="btn btn-primary" id="bannar_coming">Let's Decorate</button>
-                <button class="btn btn-primary" id="balloons_flying">Fly With Balloons</button>
-                <button class="btn btn-primary" id="cake_fadein">Most Delicious Cake Ever</button>
-                <button class="btn btn-primary" id="light_candle"> Light Candle</button>
-                <button class="btn btn-primary" id="wish_message">Happy Birthday</button>
-                <button class="btn btn-primary" id="story">A mesage for you</button>
-                <!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
+                <button class="btn btn-cute-pink" id="turn_on">Turn On Lights</button>
+                <button class="btn btn-cute-pink" id="play">Play Music</button>
+                <button class="btn btn-cute-pink" id="bannar_coming">Let's Decorate</button>
+                <button class="btn btn-cute-pink" id="balloons_flying">Fly With Balloons</button>
+                <button class="btn btn-cute-pink" id="cake_fadein">Most Delicious Cake Ever</button>
+                <button class="btn btn-cute-pink" id="light_candle"> Light Candle</button>
+                <button class="btn btn-cute-pink" id="wish_message">Happy Birthday</button>
+                <button class="btn btn-cute-pink" id="story">A mesage for you</button>
+                
                 <text class="love_text" id="love_text" style="display: none;font-family: cursive;font-size: 18px;color: #a94442;"></text>
             </div>
         </div>
@@ -133,7 +133,51 @@
 
 
 </div>
+<canvas id="canvas"></canvas>
+<script type="text/javascript" src="./fireworks.js"></script>
 </body>
+<style>
+     body {
+      margin: 0;
+      background: black;
+      overflow: hidden;
+    }
+     canvas {
+      display: block;
+      cursor: crosshair;
+    }
+     
+     /* Cute Pink Button Styles */
+     .btn-cute-pink {
+       background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+       color: white;
+       border: none;
+       padding: 12px 24px;
+       margin: 6px;
+       border-radius: 25px;
+       font-size: 14px;
+       font-weight: bold;
+       cursor: pointer;
+       box-shadow: 0 4px 15px rgba(255, 20, 147, 0.4);
+       transition: all 0.3s ease;
+       display: inline-block;
+       text-transform: uppercase;
+       letter-spacing: 0.5px;
+     }
+     
+     .btn-cute-pink:hover {
+       background: linear-gradient(135deg, #ff1493 0%, #ff69b4 100%);
+       transform: translateY(-3px);
+       box-shadow: 0 6px 20px rgba(255, 20, 147, 0.6);
+     }
+     
+     .btn-cute-pink:active {
+       transform: translateY(-1px);
+       box-shadow: 0 3px 10px rgba(255, 20, 147, 0.4);
+     }
+</style>
+
+
 <script src="assets/jquery.min.js"></script>
 <script src="./assets/bootstrap.min.js"></script>
 <script src="assets/effect.js"></script>

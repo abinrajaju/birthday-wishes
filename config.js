@@ -3,63 +3,48 @@ var config = {
     // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
     // 每句话尽量不要超过15个字,不然展示效果可能不太好
    texts: [
-    "ente shuttu,",
-    "yes, you right there,",
-    "today is all about you,",
-    "so let the world wait a little,",
-    "because it’s your special day!",
-    "I’m lucky to know you,",
-    "lucky to laugh with you,",
-    "lucky to see you smile,",
-    "even on your grumpy days,",
-    "you’re still my favorite person,",
-    "Did you make a birthday wish yet?",
-    "Remember to eat something tasty today,",
-    "keep your heart light and happy,",
-    "and enjoy every tiny moment,",
-    "I’ll be cheering for you quietly,",
-    "Happy Birthday  🌷✨",
+  "Hey Mikku,",
+  "Today is your special day,",
+  "and I just want to say",
+  "how thankful I am",
+  "to have you in my life.",
+  "I feel lucky to know you,",
+  "lucky to laugh with you,",
+  "and lucky to see you smile.",
+  "It’s our first birthday together,",
+  "and I wish to spend many more moments with you.",
+  "I am here for you, always.",
+  "Thank you for being a part of my life.",
+  "Happy Birthday, Mikku 💕"
 ],
-    /**
-     * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
-     * "对应上面的文字, 要完全一样" : "图片地址, 可以把图片放在imgs文件夹中"
-     * 例如
-     * "心爱的小可爱": "./imgs/xiaokeai.jpg"
-     *
-     * 如果不要图片的话, 直接在每行开头写两个斜杠注释即可, 例如下面的 "今天是你的生日" 的图片就不会展示了:)
-     * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
-     */
-   imgs: {
-    "Just for you,": "./imgs/songxinxin.jpeg",
-    "my precious girl,": "./imgs/nothing.jpg",
-    "today is a very special day,": "./imgs/shengri.jpeg",
-    "because it marks": "./imgs/zaiyiqi.png",
-    "our third birthday together!": "./imgs/nothing.jpg",
-    "Over these years, I’ve seen you,": "./imgs/yangzi.jpeg",
-    "being silly,": "./imgs/nothing.jpg",
-    "being adorable,": "./imgs/nothing.jpg",
-    "even being a little grumpy,": "./imgs/nothing.jpg",
-    "and I loved every version of you,": "./imgs/nothing.jpg",
-    "By the way… did you open all your gifts?": "./imgs/chuo.gif",
-    "This year, promise me you’ll eat well,": "./imgs/chihaodian.jpeg",
-    "fill your tummy completely,": "./imgs/weibao.jpeg",
-    "so you’ll have lots of energy,": "./imgs/nothing.jpg",
-    "to chase your dreams and miss me a little!": "./imgs/nothing.jpg",
-    "Happy Birthday, my love~~ 💕": "./imgs/nothing.jpg"
+  imgs: {
+  "Hey Mikku,": "./imgs/1.jpeg",
+  "Today is your special day,": "./imgs/2.jpg",
+  "and I just want to say": "./imgs/3.jpeg",
+  "how thankful I am": "./imgs/4.png",
+  "to have you in my life.": "./imgs/5.jpg",
+  "I feel lucky to know you,": "./imgs/6.jpeg",
+  "lucky to laugh with you,": "./imgs/7.jpg",
+  "and lucky to see you smile.": "./imgs/11.jpg",
+  "It’s our first birthday together,": "./imgs/10.jpg",
+  "and I wish to spend many more moments with you.": "./imgs/3.jpg",
+  "I am here for you, always.": "./imgs/2.gif",
+  "Thank you for being a part of my life.": "./imgs/5.jpeg",
+  "Happy Birthday, Mikku 💕": "./imgs/1.jpeg"
 },
     
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
-        turn_on: "ivide click cheyy",
-        play: "MUSIC vende",
-        bannar_coming: "DECORATION vende",
-        balloons_flying: "ithu pora",
-        cake_fadein: "CAKE ",
-        light_candle: "CANDLE kathikk",
-        wish_message: "HAPPY BIRTHDAY mikkummoooo",
-        story: "enikk oru korach parayan ind"
+        turn_on: "click here",
+        play: "for MUSIC",
+        bannar_coming: "for DECORATION",
+        balloons_flying: " balloons",
+        cake_fadein: "do you want cake? ",
+        light_candle: "bring CANDLE",
+        wish_message: "HAPPY BIRTHDAY mikku💕 ",
+        story: "read carefully"
     },
 
     // 结束语
-    loveText: 'Happy birthday mikku'
+    loveText: 'Happy birthday ma girl '
 };
